@@ -1,0 +1,46 @@
+{
+  "name": "nextjs-init-template",
+  "version": "0.1.0",
+  "private": true,
+  "engines": {
+    "node": ">=18.0.0",
+    "yarn": ">=1.22.0"
+  },
+  "author": {
+    "email": "glenn.lh.cai@gmail.com",
+    "name": "Glenn Cai",
+    "url": "glenncai.com"
+  },
+  "license": "MIT",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "format": "prettier --write \"**/*.{js,jsx,ts,tsx}\"",
+    "prepare": "husky install"
+  },
+  "dependencies": {
+    "next": "13.4.9",
+    "react": "18.2.0",
+    "react-dom": "18.2.0"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^17.6.6",
+    "@commitlint/config-conventional": "^17.6.6",
+    "@types/node": "20.4.1",
+    "@types/react": "18.2.14",
+    "@types/react-dom": "18.2.6",
+    "autoprefixer": "10.4.14",
+    "eslint": "8.44.0",
+    "eslint-config-next": "13.4.9",
+    "eslint-config-prettier": "^8.8.0",
+    "husky": "^8.0.3",
+    "lint-staged": "^13.2.3",
+    "postcss": "8.4.25",
+    "prettier": "^2.8.8",
+    "prettier-plugin-tailwindcss": "^0.3.0",
+    "tailwindcss": "3.3.2",
+    "typescript": "5.1.6"
+  }
+}
